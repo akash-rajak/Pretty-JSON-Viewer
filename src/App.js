@@ -23,6 +23,15 @@ const JsonViewer = () => {
     reader.readAsText(file);
   };
 
+  const handleCopyClick = () => {
+    const textarea = document.createElement('textarea');
+    textarea.value = jsonContent;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+  };
+
   return (
     <div>
       
@@ -32,7 +41,10 @@ const JsonViewer = () => {
       {/* input button to select json file from local system */}
       <input type="file" onChange={handleFileChange} accept=".json" />
       {jsonContent && (
-        <pre>{jsonContent}</pre>
+        <div>
+          <button onClick={handleCopyClick}>Copy JSON</button>
+          <pre>{jsonContent}</pre>
+        </div>
       )}
     </div>
   );

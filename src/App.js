@@ -25,7 +25,11 @@ const JsonViewer = () => {
 
   return (
     <div>
+      
+      {/* h1 tag displaying the header  */}
       <h1>Pretty &#123;JSON&#125; Viewer</h1>
+
+      {/* input button to select json file from local system */}
       <input type="file" onChange={handleFileChange} accept=".json" />
       {jsonContent && (
         <pre>{jsonContent}</pre>

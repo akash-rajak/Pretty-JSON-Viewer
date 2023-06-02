@@ -1,29 +1,5 @@
-// import logo from './logo.svg';
-// import './App.css';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
+import './App.css';
 import React, { useState } from 'react';
 
 const JsonViewer = () => {
@@ -49,7 +25,7 @@ const JsonViewer = () => {
 
   return (
     <div>
-      <h1>JSON Viewer</h1>
+      <h1>Pretty &#123;JSON&#125; Viewer</h1>
       <input type="file" onChange={handleFileChange} accept=".json" />
       {jsonContent && (
         <pre>{jsonContent}</pre>
@@ -59,3 +35,30 @@ const JsonViewer = () => {
 };
 
 export default JsonViewer;
+
+
+// import logo from './logo.svg';
+// import './App.css';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         <img src={logo} className="App-logo" alt="logo" />
+//         <p>
+//           Edit <code>src/App.js</code> and save to reload.
+//         </p>
+//         <a
+//           className="App-link"
+//           href="https://reactjs.org"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           Learn React
+//         </a>
+//       </header>
+//     </div>
+//   );
+// }
+
+// export default App;

@@ -1,3 +1,40 @@
+
+## ✔ Pretty JSON Viewer
+- A React App to view the JSON file in a prettier way.
+- In app, user will be able to select any .json file and will be able to view it and analyse it.
+
+****
+
+### REQUIREMENTS :
+- node.js
+- Visual Studio Code
+
+****
+
+### How this React App works :
+- First user need to download the app and open the folder `pretty-json-viewer` in the Visual Studio Code.
+- Inorder to run the app, follow below steps:
+	```
+	cd pretty-react-app
+	```
+	- This will change the directory to the app directory.
+	```
+	npm start
+	```
+	- This will start compiling the app, and after compiling it will provide the option of link where we can view the app, and even opens the app in default browser.
+
+****
+
+### SCREENSHOTS :
+
+
+****
+
+### Owner :
+- Akash Rajak
+
+
+<!--  Readme given the React App by default---------------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +105,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+-->

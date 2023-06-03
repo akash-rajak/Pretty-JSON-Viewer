@@ -14,18 +14,35 @@
 ### How this React App works :
 - First user need to download the app and open the folder `pretty-json-viewer` in the Visual Studio Code.
 - Inorder to run the app, follow below steps:
+	- This command will change the directory to the app directory.
 	```
 	cd pretty-react-app
 	```
-	- This will change the directory to the app directory.
+	- This will start compiling the app, and after compiling it will provide the option of link where we can view the app, and even opens the app in default browser.
 	```
 	npm start
 	```
-	- This will start compiling the app, and after compiling it will provide the option of link where we can view the app, and even opens the app in default browser.
+- In the brower, user will see the option to select the JSON file using `Choose File` button.
+- When user selects the JSON file, the file name will be visible next to the button and `Copy JSON` button will gets enabled, and below that `JSON Content` will be visible.
+- IMP : Also if user clicks on `Choose File` button, and end up selecting no JSON file, then the `Copy JSON` button and `JSON Content Area` will be disabled from the webpage, as no file is selected.
 
 ****
 
 ### SCREENSHOTS :
+![image](https://github.com/akash-rajak/Pretty-JSON-Viewer/assets/57003737/a1103fd9-c87a-4e98-a54c-7461b7be0b14)
+
+![image](https://github.com/akash-rajak/Pretty-JSON-Viewer/assets/57003737/8dbffe4f-3f52-406c-ae92-379f706bd347)
+
+![image](https://github.com/akash-rajak/Pretty-JSON-Viewer/assets/57003737/9969e383-908f-4bb7-a5d8-26ec8e49899e)
+
+![image](https://github.com/akash-rajak/Pretty-JSON-Viewer/assets/57003737/5228e9a8-92df-4058-9d83-f23c1782a75e)
+
+![image](https://github.com/akash-rajak/Pretty-JSON-Viewer/assets/57003737/b0e27a1a-41c6-4f51-b0d5-d49d1a13c0f9)
+
+![image](https://github.com/akash-rajak/Pretty-JSON-Viewer/assets/57003737/f5253d94-768f-4bf2-aac0-697fbfdd7275)
+
+
+
 
 
 ****

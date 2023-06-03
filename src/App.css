@@ -37,12 +37,16 @@
   }
 }
 
+body {
+  background-color: #e580f5; /* Add your desired background color here */
+}
+
 
 .container {
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #0bb7d1;
+  background-color: #0dc4e1;
   border-radius: 5px;
 }
 
@@ -81,7 +85,7 @@ input[type="file"] {
   width: 300px;
   border: 5px solid #ced513;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #3ebf0b;
   box-sizing: border-box;
   /* width: 100%; */
   cursor: pointer;

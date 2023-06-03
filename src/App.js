@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 
 const JsonViewer = () => {
   const [jsonContent, setJsonContent] = useState(null);
+  const [buttonText, setButtonText] = useState('Copy JSON');
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
@@ -30,6 +31,7 @@ const JsonViewer = () => {
     textarea.select();
     document.execCommand('copy');
     document.body.removeChild(textarea);
+    setButtonText('Copied');
   };
 
   return (
@@ -42,7 +44,7 @@ const JsonViewer = () => {
       <input type="file" onChange={handleFileChange} accept=".json" />
       {jsonContent && (
         <div>
-          <button onClick={handleCopyClick}>Copy JSON</button>
+          <button onClick={handleCopyClick}>{buttonText}</button>
           <pre>{jsonContent}</pre>
         </div>
       )}

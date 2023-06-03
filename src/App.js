@@ -8,20 +8,25 @@ const JsonViewer = () => {
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
-    const reader = new FileReader();
+    if (file){
+      const reader = new FileReader();
 
-    reader.onload = (e) => {
-      const content = e.target.result;
-      try {
-        const parsedJson = JSON.parse(content);
-        setJsonContent(JSON.stringify(parsedJson, null, 2));
-      } catch (error) {
-        console.error('Error parsing JSON file:', error);
-        setJsonContent(null);
-      }
-    };
+      reader.onload = (e) => {
+        const content = e.target.result;
+        try {
+          const parsedJson = JSON.parse(content);
+          setJsonContent(JSON.stringify(parsedJson, null, 2));
+          setButtonText('Copy JSON'); // Reset the button text
+        } catch (error) {
+          console.error('Error parsing JSON file:', error);
+          setJsonContent(null);
+        }
+      };
 
-    reader.readAsText(file);
+      reader.readAsText(file);
+    } else {
+      setJsonContent(null); // Clear the JSON content
+    }
   };
 
   const handleCopyClick = () => {

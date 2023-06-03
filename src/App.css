@@ -42,12 +42,21 @@ body {
 }
 
 
-.container {
+/* old container */
+/* .container {
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
   background-color: #0dc4e1;
   border-radius: 5px;
+} */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 /* CSS for h1 tag */
@@ -161,6 +170,13 @@ pre {
   color: #333;
   white-space: pre-wrap;
   word-wrap: break-word;
+  max-height: 58vh; /* Adjust the max-height value as desired */
+}
+
+@media screen and (max-width: 600px) {
+  pre {
+    max-height: 40vh; /* Adjust the max-height value as desired for mobile devices */
+  }
 }
 
 /* css for copy JSON button */

@@ -47,8 +47,8 @@
 
 ****
 
-### Owner :
-- Akash Rajak
+### IMP Notes :
+- 
 
 
 <!--  Readme given the React App by default---------------------------------------------

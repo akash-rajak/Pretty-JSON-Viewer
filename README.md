@@ -3,15 +3,45 @@
 - A React App to view the JSON file in a prettier way.
 - In app, user will be able to select any .json file and will be able to view it and analyse it.
 
+<p align = "center">
+	<img src = "https://img.shields.io/github/stars/akash-rajak/Pretty-JSON-Viewer?style=social", alt = "GitHub Repo stars">
+	<img src = "https://img.shields.io/github/forks/akash-rajak/Pretty-JSON-Viewer?style=social", alt = "GitHub Repo forks">
+	<img src = "https://img.shields.io/github/watchers/akash-rajak/Pretty-JSON-Viewer?style=social", alt = "GitHub Repo watchers">
+	<img src = "https://img.shields.io/github/contributors/akash-rajak/Pretty-JSON-Viewer?style=social", alt = "GitHub contributors">
+</p>
+<p align = "center">
+	<img src = "https://img.shields.io/github/languages/count/akash-rajak/Pretty-JSON-Viewer?style=social", alt = "GitHub language count">
+	<img src = "https://img.shields.io/github/languages/top/akash-rajak/Pretty-JSON-Viewer?style=social", alt = "GitHub top language">
+	<img src = "https://img.shields.io/github/directory-file-count/akash-rajak/Pretty-JSON-Viewer?style=social", alt = "GitHub repo file count">
+	<img src = "https://img.shields.io/github/repo-size/akash-rajak/Pretty-JSON-Viewer?style=social", alt = "GitHub repo size">
+</p>
+<p align = "center">
+	<img src = "https://img.shields.io/github/issues/akash-rajak/Pretty-JSON-Viewer", alt = "GitHub issues">
+	<img src = "https://img.shields.io/github/issues-closed/akash-rajak/Pretty-JSON-Viewer", alt = "GitHub closed issues">
+	<img src = "https://img.shields.io/github/issues-pr/akash-rajak/Pretty-JSON-Viewer", alt = "GitHub pull requests">
+	<img src = "https://img.shields.io/github/issues-pr-closed/akash-rajak/Pretty-JSON-Viewer", alt = "GitHub closed pull requests">
+</p>
+<p align = "center">
+	<img src = "https://img.shields.io/github/commit-activity/t/akash-rajak/Pretty-JSON-Viewer", alt = "GitHub commit activity">
+	<img src = "https://img.shields.io/github/commit-activity/y/akash-rajak/Pretty-JSON-Viewer", alt = "GitHub commit activity/year">
+	<img src = "https://img.shields.io/github/commit-activity/m/akash-rajak/Pretty-JSON-Viewer", alt = "GitHub commit activity/month">
+	<img src = "https://img.shields.io/github/commit-activity/w/akash-rajak/Pretty-JSON-Viewer", alt = "GitHub commit activity/week">
+	<img src = "https://img.shields.io/github/last-commit/akash-rajak/Pretty-JSON-Viewer", alt = "GitHub last commit">
+	<img src = "https://img.shields.io/github/discussions/akash-rajak/Pretty-JSON-Viewer", alt = "GitHub Discussions">
+</p>
+<p align = "center">
+	<img src = "https://img.shields.io/github/license/akash-rajak/Pretty-JSON-Viewer", alt = "Github">
+</p>
+
 ****
 
-### REQUIREMENTS :
+### 📌REQUIREMENTS :
 - node.js
 - Visual Studio Code
 
 ****
 
-### How this React App works :
+### 📌How this React App works :
 - First user need to download the app and open the folder `pretty-json-viewer` in the Visual Studio Code.
 - Inorder to run the app, follow below steps:
 	- This command will change the directory to the app directory.
@@ -28,7 +58,7 @@
 
 ****
 
-### SCREENSHOTS :
+### 📌SCREENSHOTS :
 ![image](https://github.com/akash-rajak/Pretty-JSON-Viewer/assets/57003737/a1103fd9-c87a-4e98-a54c-7461b7be0b14)
 
 ![image](https://github.com/akash-rajak/Pretty-JSON-Viewer/assets/57003737/8dbffe4f-3f52-406c-ae92-379f706bd347)
@@ -47,8 +77,18 @@
 
 ****
 
-### IMP Notes :
+### 📌IMP Notes :
 - 
+
+### 🌟Stargazers Over Time:
+[![Stargazers over time](https://starchart.cc/akash-rajak/Pretty-JSON-Viewer.svg)](https://starchart.cc/akash-rajak/Pretty-JSON-Viewer)
+
+****
+
+### 📌Contributors:
+<a href="https://github.com/akash-rajak/Pretty-JSON-Viewer/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=akash-rajak/Pretty-JSON-Viewer" />
+</a>
 
 
 <!--  Readme given the React App by default---------------------------------------------

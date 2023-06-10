@@ -30,6 +30,9 @@
 	<img src = "https://img.shields.io/github/discussions/akash-rajak/Pretty-JSON-Viewer", alt = "GitHub Discussions">
 </p>
 <p align = "center">
+	<img src = "https://img.shields.io/github/package-json/v/akash-rajak/Pretty-JSON-Viewer", alt = "GitHub package.json version">
+</p>
+<p align = "center">
 	<img src = "https://img.shields.io/github/license/akash-rajak/Pretty-JSON-Viewer", alt = "Github">
 </p>
 

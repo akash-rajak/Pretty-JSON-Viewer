@@ -4,6 +4,10 @@
 - In app, user will be able to select any .json file and will be able to view it and analyse it.
 
 <p align = "center">
+	<img src = "https://img.shields.io/badge/React App-Pretty JSON Viewer-orange?style=plastic&logo=appveyor", alt = "Pretty JSON Viewer">
+	<img src = "https://img.shields.io/badge/JSON-Viewer-green?style=plastic&logo=appveyor", alt = "JSoN">
+</p>
+<p align = "center">
 	<img src = "https://img.shields.io/github/stars/akash-rajak/Pretty-JSON-Viewer?style=social", alt = "GitHub Repo stars">
 	<img src = "https://img.shields.io/github/forks/akash-rajak/Pretty-JSON-Viewer?style=social", alt = "GitHub Repo forks">
 	<img src = "https://img.shields.io/github/watchers/akash-rajak/Pretty-JSON-Viewer?style=social", alt = "GitHub Repo watchers">

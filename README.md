@@ -89,7 +89,13 @@
 - 
 
 ### 🌟Stargazers Over Time:
+[![Stargazers repo roster for @akash-rajak/Pretty-JSON-Viewer](https://reporoster.com/stars/akash-rajak/Pretty-JSON-Viewer)](https://github.com/akash-rajak/Pretty-JSON-Viewer/stargazers)
 [![Stargazers over time](https://starchart.cc/akash-rajak/Pretty-JSON-Viewer.svg)](https://starchart.cc/akash-rajak/Pretty-JSON-Viewer)
+
+****
+
+### 🌟Forkers Over Time:
+[![Forkers repo roster for @akash-rajak/Pretty-JSON-Viewer](https://reporoster.com/forks/akash-rajak/Pretty-JSON-Viewer)](https://github.com/akash-rajak/Pretty-JSON-Viewer/network/members)
 
 ****
 

@@ -1,7 +1,8 @@
 
 ## ✔ Pretty JSON Viewer
-- A React App to view the JSON file in a prettier way.
-- In app, user will be able to select any .json file and will be able to view it and analyse it.
+- Designed and developed a clean and modern react app using React.js , HTML, CSS, and JavaScript.
+- Implemented the JSON file selecting option using File Handler, along with Copy Action button.
+- Utilized responsive design to ensure compatibility across all devices.
 
 <p align = "center">
 	<img src = "https://img.shields.io/badge/React App-Pretty JSON Viewer-orange?style=plastic&logo=appveyor", alt = "Pretty JSON Viewer">
